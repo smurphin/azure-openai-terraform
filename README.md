@@ -1,5 +1,7 @@
 # Azure OpenAI Deployment Automation with Terraform
 
+* A full overview of this code and how it works can be found on my blog [here](https://smurphin.github.io/terraform/azure/ai/openai/infraascode/iac/2023/05/17/Azure-Open-AI-with-Terraform.html#devtfvars)
+
 This repository contains Terraform code that automates the deployment of multiple Azure OpenAI instances with multiple models. It simplifies the process of creating and configuring cognitive accounts and deploying models, saving time and reducing errors.
 
 ## Introduction
