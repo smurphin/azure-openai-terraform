@@ -30,7 +30,7 @@ To get started with the deployment automation:
 1. Clone this repository to your local machine.
 2. Configure your Azure credentials using the Azure CLI.
 3. Update the variables in `variables.tf` to match your requirements.
-4. Create an environment-specific `.tfvars` file (e.g., `dev.tfvars`) and provide the necessary values for the variables.
+4. Create an environment-specific `.tfvars` folder and file (e.g., `\environments\development\dev.tfvars`) and provide the necessary values for the variables.
 5. Run `terraform init` to initialize the Terraform configuration.
 6. Run `terraform plan` to preview the changes that will be applied.
 7. Run `terraform apply` to apply the changes and create the Azure OpenAI instances and models.
