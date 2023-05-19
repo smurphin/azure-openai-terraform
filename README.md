@@ -39,21 +39,12 @@ To get started with the deployment automation:
 
 The repository follows the following file structure:
 
-
-- main.tf
-- locals.tf
-- variables.tf
-- environments
-    * development
-        + dev.tfvars
-- README.md
-- .gitignore
-
-
 - `main.tf`: Contains the main Terraform configuration, including resource definitions and the nested loop structure.
 - `locals.tf`: Defines the locals used in the Terraform code, including the nested loop for cognitive deployments.
 - `variables.tf`: Defines the input variables used in the Terraform code, such as the deployments data structure.
-- `dev.tfvars`: Environment-specific file containing values for variables in `variables.tf`. Customize it for different environments.
+- environments
+    * development
+        +  `dev.tfvars`: Environment-specific file containing values for variables in `variables.tf`. Customize it for different environments.
 - `README.md`: The document you're currently reading.
 - `.gitignore`: Specifies files and directories to be ignored by Git.
 
