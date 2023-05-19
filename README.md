@@ -39,13 +39,15 @@ To get started with the deployment automation:
 
 The repository follows the following file structure:
 
-.
-├── main.tf
-├── locals.tf
-├── variables.tf
-├── dev.tfvars
-├── README.md
-└── .gitignore
+
+- main.tf
+- locals.tf
+- variables.tf
+- environments
+    * development
+        + dev.tfvars
+- README.md
+- .gitignore
 
 
 - `main.tf`: Contains the main Terraform configuration, including resource definitions and the nested loop structure.
