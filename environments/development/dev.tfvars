@@ -2,8 +2,6 @@ env = "DEV"
 
 subscription = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx"
 
-resource-group = "DEV-GPT"
-
 deployments = {
     "dev-gpt-EU-a" = {
       location = "westeurope"
